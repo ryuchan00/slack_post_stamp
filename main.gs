@@ -3,8 +3,8 @@ var sheet_url = "google spread sheet url";
 
 
 function doGet() {
-    Logger.log("Hello World!!");
-    return ContentService.createTextOutput("Hello World!!");
+    Logger.log("success GET method!");
+    return ContentService.createTextOutput("success GET method!!");
 }
 
 // Outgoing WebHooksに反応する関数 
