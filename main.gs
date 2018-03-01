@@ -9,8 +9,6 @@ function doGet() {
 
 // Outgoing WebHooksに反応する関数 
 function doPost(e) {
-  Logger.log(e);
-  
   if( e.parameter.user_name == "slackbot" ) {
     return null;
   }  
